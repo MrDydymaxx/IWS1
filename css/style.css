@@ -128,7 +128,6 @@ header {
 #nav_footer ul li a:hover {
 	color:red;
 }
-
 #carrousel
 {
 	position:absolute;
@@ -240,4 +239,47 @@ header {
 	height:50%;
 	top:280%;
 	left:30%;
+}
+#logo_actu
+{
+	position: absolute;
+	width: 60%;
+	margin-top: -8%;
+	margin-left: -15%;
+}
+#banner_actu
+{
+	position: absolute;
+	width: 60%;
+	margin-top: -5%;
+	margin-left: 30%;
+	z-index: 1;
+}
+
+#titre_actu
+{
+	position: absolute;
+	color: black;
+	font-size: 2.5em;
+	text-decoration: none;
+	z-index: 2;
+	right: 30%;
+	top: 8%;
+}
+
+.article_actu h4
+{
+	background-color: white;
+	padding: 1%;
+	float: left;
+}
+.article_actu
+{
+	margin: 2%;
+}
+
+.img_actu
+{
+	width: 30%;
+	float: left;
 }
