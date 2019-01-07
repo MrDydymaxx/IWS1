@@ -128,6 +128,118 @@ header {
 #nav_footer ul li a:hover {
 	color:red;
 }
+#carrousel
+{
+	position:absolute;
+	width:40%;
+	z-index:1;
+	left:500px;
+	top: 200px;
+}
+#lienspcar
+{
+	position:absolute;
+	top:60%;
+	left:50%;
+}
+#carrouselpcar
+{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:30%;
+	left:40%;
+}
+#carrouseltpcar
+{
+	position:absolute;
+	top:75%;
+	left:20%;
+}
+#videopcar
+{
+	position:absolute;
+	top:93%;
+	left:13%;
+}
+#awardpcar
+{
+	position:absolute;
+	z-index:2;
+	width:30%;
+	height:30%;
+	top:85%;
+	left:-7%;
+}
+#texte1pcar
+{
+	position:absolute;
+	z-index:2;
+	top:180%;
+	left:20%;
+}
+#surfacepcar
+{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:200%;
+	left:10%;
+}
+#niveau1
+{
+	position:absolute;
+	
+	top:200%;
+	left:45%;
+}
+#fmarinspcar
+{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:230%;
+	left:50%;
+}
+#niveau2
+{
+	position:absolute;
+	
+	top:230%;
+	left:6%;
+}
+#imagen3
+{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:260%;
+	left:10%;
+}
+
+#niveau3
+{
+	position:absolute;
+	
+	top:260%;
+	left:45%;
+}
+#croquispcar
+{
+	position:absolute;
+	top:300%;
+	left:0%;
+}
+
+#bannierepcar
+{
+	position:absolute;
+	z-index:2;
+	width:50%;
+	height:50%;
+	top:280%;
+	left:30%;
+}
 #logo_actu
 {
 	position: absolute;
