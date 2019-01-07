@@ -152,22 +152,35 @@ header {
 	text-decoration: none;
 	z-index: 2;
 	right: 30%;
-	top: 8%;
+	top: 26%;
 }
 
 .article_actu h4
 {
+	position: relative;
 	background-color: white;
-	padding: 1%;
+	padding: 1.2%;
 	float: left;
+	margin-left: 5%;
+	margin-right: -10%;
+	font-size: 1.1em;
 }
 .article_actu
 {
-	margin: 2%;
+	margin-top: 20%;
 }
 
 .img_actu
 {
-	width: 30%;
+	position: relative;
+	width: 25%;
 	float: left;
+	left: -6%;
+	margin-top: 5%;
+}
+
+#img_actu_index_cirque
+{
+	margin-left: 7%;
+	margin-top:-1.5%;
 }
