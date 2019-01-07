@@ -21,7 +21,7 @@ header {
 	background-color: grey;
 	left: 0%;
 	width: 100%;
-	top: 200%;
+	top: 216%;
 }
 
 #hdr_logo {
@@ -31,7 +31,7 @@ header {
 
 .lang {
 	position:absolute;
-	top:10px;
+	top:3%;
 	right:2%;
 }
 
@@ -58,26 +58,21 @@ header {
 	color:red;
 }
 
-#article_index_dec
-{
-	margin-left: 8%;
-	margin-right: 0;
-}
-
-#icon_arbre_heron
+#icon_arbre_heron, #icon_carrousel
 {
 	position:absolute;
 	width:12%;
 	z-index:2;
+	left: 5%;
 }
 
-#arbre_heron
+#arbre_heron, #carrousel
 {
-	position:absolute;
+	position:relative;
 	width:40%;
 	z-index:1;
-	left:13%;
-	top: 2.5%;
+	left:9%;
+	margin-top:8%;
 }
 
 .txt_article_right
@@ -86,6 +81,7 @@ header {
 	margin-left:55%;
 	margin-right:10%;
 	font-size: 1.3em;
+	margin-top: -16%;
 }
 
 #icon_elephant
@@ -93,28 +89,44 @@ header {
 	position:absolute;
 	width:12%;
 	z-index:2;
+	right: 42%;
+	margin-top: 1%;
 }
 
 #elephant
 {
-	position:absolute;
+	position:relative;
 	width:40%;
 	z-index:1;
+	left: 50%;
+	margin-top: 8%;
 }
 
 .txt_article_left
 {
 	float: left;
 	margin-right:50%;
-	margin-left:10%;
+	margin-left:15%;
 	font-size: 1.3em;
+	margin-top: -15%;
 }
 
-#icon_carrousel
-{
-	position:absolute;
-	width:12%;
-	z-index:2;
+#nav_footer ul {
+	list-style-type:none;
+ 	text-align:left;
+ 	font-size: 1.1em;
+}
+#nav_footer ul li {
+ 	margin-right:5%;
+ 	margin-left:10%;
+ 	margin-bottom:20px;
+}
+#nav_footer ul li a {
+	text-decoration:none;
+	color:green;
+}
+#nav_footer ul li a:hover {
+	color:red;
 }
 
 #carrousel
