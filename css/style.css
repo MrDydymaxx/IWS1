@@ -511,3 +511,21 @@ header {
 	width: 30%;
 	margin-top: -1.5%;
 }
+#footer2 {
+	width:100%;
+	height:300px;
+}
+#footer3 {
+	width:100%;
+	height:300px;
+}
+.column_footer {
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding-left:3%;
+	padding-right:2%;
+	width:20%;
+	height:80%;
+	background-color:rgb(179,179,179);
+}
