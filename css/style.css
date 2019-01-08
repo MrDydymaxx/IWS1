@@ -23,7 +23,8 @@ header {
 	background-color: rgb(102,102,102);
 	left: 0%;
 	width: 100%;
-	top: 216%;
+	top: 241%;
+	height: 100%;
 }
 
 #hdr_logo {
@@ -380,39 +381,29 @@ header {
 	text-decoration: none;
 	z-index: 2;
 	right: 30.5%;
-	top: 17%;
+	top: 22%;
 }
 
 .article_actu h4
 {
 	
-	position: relative;
 	background-color: white;
-	padding: 1.2%;
-	float: left;
-	margin-left: 5%;
+	padding: 5%;
+	width: 60%;
+	margin-left: 15%;
 	margin-right: 0%;
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 .article_actu
 {
-	margin-top: 20%;
+	margin-top: 70%;
 	
 }
 
 .img_actu
 {
-	width: 25%;
-	float: left;
-	left: -6%;
-	margin-top: 5%;
-	display: inline;
-}
-
-#img_actu_index_cirque
-{
-	margin-left: 7%;
-	margin-top:-1.5%;
+	width: 70%;
+	margin-top: -5%;
 }
 
 #div_contact
@@ -479,8 +470,8 @@ header {
 {
 	position: absolute;
 	background-color:rgb(077,077,077);
-	left: 0%;
-	right: 0%;
+	left: 0;
+	right: 0;
 	width: 100%;
 	top: 25%;
 }
@@ -493,26 +484,24 @@ header {
 	color: white;
 }
 
-.article_pactu
-{
-	position: relative;
-	float: left;
-	margin-left: 1%;
-}
-
 #section_pactu h3
 {
 	background-color: white;
-	padding:4%;
-	width: 27%;
+	padding:6%;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	width: 53%;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	margin-left: 17.5%;
+	float: center;
 }
 
 #section_pactu img
 {
-	width: 35%;
-	margin-top: -2.5%;
+	width: 65%;
+	margin-top: -5%;
 }
 
 #footer2 {
@@ -532,4 +521,23 @@ header {
 	width:20%;
 	height:80%;
 	background-color:rgb(179,179,179);
+}
+
+/*
+#colonne_actu
+{
+	display: flex;
+	flex-direction: row wrap;
+	margin-left: 5%;
+}
+
+#colonne_actu section article
+{
+	flex-direction: column wrap;
+	display: flex;
+} */
+
+.article_pactu
+{
+	
 }
