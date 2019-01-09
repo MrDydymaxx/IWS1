@@ -193,6 +193,8 @@ header {
 	top:60%;
 	left:50%;
 }
+#lienpcar ul li {
+	list-style-type:none;}
 #carrouselpcar
 {
 	position:absolute;
