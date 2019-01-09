@@ -232,10 +232,10 @@ body
 #carrouselpcar
 {
 	position:relative;
-	width:15%;
-	height:30%;
-	top:30%;
-	left:40%;
+	width:13%;
+	height:25%;
+	top:-165px;
+	left:41%;
 }
 #carrouseltpcar
 {
@@ -331,10 +331,10 @@ body
 }
 #croquispcar
 {
-	position:absolute;
+	position:relative;
 	width: 50%;
 	z-index:1;
-	top:300%;
+	top:0%;
 	left:0%;
 }
 
@@ -389,7 +389,7 @@ body
 	background-color: rgb(010,032,045);
 	width:100%;
 	left:0px;
-	height:2750px;
+	height:2450px;
 }
 
 #logo_actu
@@ -431,44 +431,39 @@ body
 }
 .article_actu
 {
-	margin-top: 70%;
+	margin-top:70%;
 
 }
 
 .img_actu
 {
 	width: 70%;
-	margin-top: -7%;
+	margin-top:-7%;
 }
 
 #div_contact
 {
 	background-color:rgb(077,077,077);
-	left: 0%;
-	width: 100%;
-	top: 25%;
-	bottom: 45%;
-	color: white;
-	text-align: center;
+	width:100%;
+	color:white;
+	text-align:center;
 }
 
 #div_contact h1
 {
-	margin: 2%;
+	margin:2%;
 }
 
 #div_contact img
 {
-	width: 12%;
+	width:12%;
 }
 
 #formulaire
 {
 	background-color: rgb(102,102,102);
-	left: 0%;
-	width: 100%;
-	top: 55%;
-	color: white;
+	width:100%;
+	color:white;
 }
 
 #form
