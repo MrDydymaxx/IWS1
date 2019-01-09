@@ -218,6 +218,18 @@ body
 	top:60%;
 	left:50%;
 }
+#partie1pcar ul {
+	list-style-type:none;
+	text-align:center;
+}
+#partie1pcar li a {
+	text-decoration:none;
+	color:white;
+}
+#partie1pcar li a:hover {
+	color:red;
+}
+
 #carrouselpcar
 {
 	position:absolute;
@@ -278,7 +290,7 @@ body
 	text-align: justify;
 	margin-right:5%;
 	color:white;
-	top:200%;
+	top:203%;
 	left:45%;
 }
 #fmarinspcar
