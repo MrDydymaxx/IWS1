@@ -9,6 +9,17 @@ header {
 body
 {
 	margin:0px;
+	overflow-x:hidden;
+}
+footer[name="contact"]
+{
+	position:relative;
+	top:-50px;
+}
+footer[name="actu"]
+{
+	position:relative;
+	top:-85px;
 }
 #section1_dec
 {
@@ -448,6 +459,8 @@ body
 	width:100%;
 	color:white;
 	text-align:center;
+	position:relative;
+	top:-33px;
 }
 
 #div_contact h1
@@ -465,6 +478,8 @@ body
 	background-color: rgb(102,102,102);
 	width:100%;
 	color:white;
+	position:relative;
+	top:-50px;
 }
 
 #form
@@ -497,12 +512,10 @@ body
 
 #section_pactu
 {
-	position: absolute;
 	background-color:rgb(077,077,077);
-	left: 0;
-	right: 0;
-	width: 100%;
-	top: 25%;
+	position:relative;
+	width:100%;
+	top:-85px;
 }
 
 #section_pactu h1
